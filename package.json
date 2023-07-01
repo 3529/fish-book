@@ -1,0 +1,68 @@
+{
+    "name": "fish-book",
+    "version": "1.0.0",
+    "description": "fish-book is a blessing for workers, which can make you more relaxed after work.",
+    "author": "mofabo",
+    "private": true,
+    "scripts": {
+        "web:dev": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "electron:build": "vue-cli-service electron:build",
+        "electron:dev": "vue-cli-service electron:serve",
+        "postinstall": "electron-builder install-app-deps",
+        "postuninstall": "electron-builder install-app-deps"
+    },
+    "main": "background.js",
+    "dependencies": {
+        "electron-log": "^4.4.8",
+        "element-ui": "^2.15.13",
+        "fs": "^0.0.1-security",
+        "iconv-lite": "^0.6.3",
+        "sass": "^1.43.4",
+        "text-encoding": "^0.7.0",
+        "update-electron-app": "^2.0.1",
+        "vue": "^2.6.14",
+        "vue-router": "^3.5.3",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "@electron/notarize": "^1.2.4",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "electron": "^25.0.1",
+        "electron-devtools-installer": "^3.2.0",
+        "electron-store": "^8.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "jschardet": "^3.0.0",
+        "sass-loader": "^7.0.3",
+        "text-encoding": "^0.7.0",
+        "vue-cli-plugin-electron-builder": "~2.1.1",
+        "vue-cli-plugin-element": "~1.0.1",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}

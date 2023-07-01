@@ -1,0 +1,10 @@
+{
+    "appId": "com.fish-book.app",
+    "productName": "fish-book",
+    "directories": {
+        "output": "dist"
+    },
+    "win": {
+        "icon": "public/app-icon.ico"
+    }
+}
