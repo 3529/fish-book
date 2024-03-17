@@ -22,13 +22,13 @@ style="width: 100%;border:1px solid #f5f5f5;border-radius:20px;margin-top:30px;b
 # 镜像源配置 （不进行下方配置，可能会出现依赖安装异常、编译异常等问题）
 
 # 使用淘宝镜像源
-yarn config set registry https://registry.npm.taobao.org/
+yarn config set registry https://registry.npmmirror.com
 
 # 设置 Electron 镜像源
-yarn config set electron_mirror https://npm.taobao.org/mirrors/electron/
+yarn config set electron_mirror https://npmmirror.com/mirrors/electron/
 
 # 设置 Electron Builder Binaries 镜像源
-yarn config set electron_builder_binaries_mirror http://npm.taobao.org/mirrors/electron-builder-binaries/
+yarn config set electron_builder_binaries_mirror https://npmmirror.com/mirrors/electron-builder-binaries/
 
 
 # 环境
