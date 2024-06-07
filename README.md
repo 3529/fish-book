@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="fish-book-logo" width="120" height="120" src="http://www.fish-book.com/__static/logo.png">
+  <img alt="fish-book-logo" width="120" height="120" src="https://www.fish-book.com/images/logo.png">
   <h1>fish-book</h1>
   <a href="http://www.fish-book.com">访问官网</a>
 </div>
